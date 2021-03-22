@@ -5,13 +5,13 @@ These scripts do laugau fit to the track cluster charge distribution from DQM RO
     One can find the root files in
         https://dqm.belle2.org/rundependency/pxd/data/
     e.g. e0014/pxd_dqm_e0014r000054.root
-    # No updates after exp14?
+    ## No updates after exp14?
 
 2. DQM canvas plots
     One can find the root files in
         https://dqm.belle2.org/past_runs/
     e.g. expreco_exp16_canvas/dqm_e0016r000668_canvas.root
-    # Laugau fit results has been introduced in track cluster charge plots since exp16? One can extract fit results directly, no need to run these scriopts.
+    ## Laugau fit results has been introduced in track cluster charge plots since exp16? One can extract fit results directly, no need to run these scriopts.
 
 # Procedures to run the scripts:
 
