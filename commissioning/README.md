@@ -8,10 +8,16 @@ compare the difference between two commits in configDB.
 
 Read the DHH firmware information from archiver and interpret it.
 
->>> ps-test.py
+>>> service_test
 
+Scripts used in service test
+
+ps-test.py
 Enable the PS and apply some predefined voltages (masking all OVP channels may be necessary). It's used in PS standalone or cable qualification.
 
+service_test_CLC.py
+Used for camera link cable tests, turn on the module to standby, check DHP links, DCD and SW IDCode, trigger, PV dump and then turn off. 
+ 
 >>> read_db.py
 
 To read the PV values in configDB.
